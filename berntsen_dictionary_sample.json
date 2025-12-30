@@ -1,0 +1,1169 @@
+[
+  {
+    "entry_id": "berntsen_अ_1",
+    "headword_devanagari": "अ",
+    "headword_romanized": "a",
+    "full_entry": "अ a pref. negative.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अ a headword negative prefix",
+    "definitions": [
+      {
+        "definition": "negative",
+        "pos_display": "pref.",
+        "number": null,
+        "pos": "prefix",
+        "gender": null,
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अंक_1",
+    "headword_devanagari": "अंक",
+    "headword_romanized": "aṅka",
+    "full_entry": "अंक aṅka m. 1. number. 2. issue (of a magazine, newspaper). 3. act (of a play).",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अंक aṅka headword number noun.masculine masculine issue (of a magazine, newspaper) noun.masculine masculine act (of a play) noun.masculine masculine",
+    "definitions": [
+      {
+        "definition": "number",
+        "pos_display": "m.",
+        "number": 1,
+        "pos": "noun.masculine",
+        "gender": "masculine",
+        "declension_class": null,
+        "referenced_entry": null
+      },
+      {
+        "definition": "issue (of a magazine, newspaper)",
+        "pos_display": "m.",
+        "number": 2,
+        "pos": "noun.masculine",
+        "gender": "masculine",
+        "declension_class": null,
+        "referenced_entry": null
+      },
+      {
+        "definition": "act (of a play)",
+        "pos_display": "m.",
+        "number": 3,
+        "pos": "noun.masculine",
+        "gender": "masculine",
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अंकगणित_1",
+    "headword_devanagari": "अंकगणित",
+    "headword_romanized": "aṅkagaṇita",
+    "full_entry": "अंकगणित aṅkagaṇita n. arithmetic.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अंकगणित aṅkagaṇita headword arithmetic noun.neuter neuter",
+    "definitions": [
+      {
+        "definition": "arithmetic",
+        "pos_display": "n.",
+        "number": null,
+        "pos": "noun.neuter",
+        "gender": "neuter",
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अकर्मक_1",
+    "headword_devanagari": "अकर्मक",
+    "headword_romanized": "akarmaka",
+    "full_entry": "अकर्मक akarmaka adj. inv. (gram.) intransitive.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अकर्मक akarmaka headword inv. (gram.) intransitive adjective",
+    "definitions": [
+      {
+        "definition": "inv. (gram.) intransitive",
+        "pos_display": "adj.",
+        "number": null,
+        "pos": "adjective",
+        "gender": null,
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अकस्मात_1",
+    "headword_devanagari": "अकस्मात",
+    "headword_romanized": "akasmāta",
+    "full_entry": "अकस्मात akasmāta adv. suddenly, unexpectedly.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अकस्मात akasmāta headword suddenly, unexpectedly adverb",
+    "definitions": [
+      {
+        "definition": "suddenly, unexpectedly",
+        "pos_display": "adv.",
+        "number": null,
+        "pos": "adverb",
+        "gender": null,
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अकारण_1",
+    "headword_devanagari": "अकारण",
+    "headword_romanized": "akāraṇa",
+    "full_entry": "अकारण akāraṇa adv. without reason.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अकारण akāraṇa headword without reason adverb",
+    "definitions": [
+      {
+        "definition": "without reason",
+        "pos_display": "adv.",
+        "number": null,
+        "pos": "adverb",
+        "gender": null,
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अंकूर_1",
+    "headword_devanagari": "अंकूर",
+    "headword_romanized": "aṅkūra",
+    "full_entry": "अंकूर aṅkūra m. sprout.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अंकूर aṅkūra headword sprout noun.masculine masculine",
+    "definitions": [
+      {
+        "definition": "sprout",
+        "pos_display": "m.",
+        "number": null,
+        "pos": "noun.masculine",
+        "gender": "masculine",
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अक्कल_1",
+    "headword_devanagari": "अक्कल",
+    "headword_romanized": "akkala",
+    "full_entry": "अक्कल akkala f.(e) sense, intelligence.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अक्कल akkala headword sense, intelligence noun.feminine.e feminine",
+    "definitions": [
+      {
+        "definition": "sense, intelligence",
+        "pos_display": "f.(e)",
+        "number": null,
+        "pos": "noun.feminine.e",
+        "gender": "feminine",
+        "declension_class": "e",
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अक्राळविक्राळ_1",
+    "headword_devanagari": "अक्राळविक्राळ",
+    "headword_romanized": "akrāḷavikrāḷa",
+    "full_entry": "अक्राळविक्राळ akrāḷavikrāḷa adj. inv. frightful.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अक्राळविक्राळ akrāḷavikrāḷa headword inv. frightful adjective",
+    "definitions": [
+      {
+        "definition": "inv. frightful",
+        "pos_display": "adj.",
+        "number": null,
+        "pos": "adjective",
+        "gender": null,
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अखंड_1",
+    "headword_devanagari": "अखंड",
+    "headword_romanized": "akhaṇḍa",
+    "full_entry": "अखंड akhaṇḍa adj. inv. 1. entire, in one piece. 2. continuous. adv. continuously.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अखंड akhaṇḍa headword entire, in one piece adjective continuous adjective continuously adverb",
+    "definitions": [
+      {
+        "definition": "entire, in one piece",
+        "pos_display": "adj.",
+        "number": 1,
+        "pos": "adjective",
+        "gender": null,
+        "declension_class": null,
+        "referenced_entry": null
+      },
+      {
+        "definition": "continuous",
+        "pos_display": "adj.",
+        "number": 2,
+        "pos": "adjective",
+        "gender": null,
+        "declension_class": null,
+        "referenced_entry": null
+      },
+      {
+        "definition": "continuously",
+        "pos_display": "adv.",
+        "number": null,
+        "pos": "adverb",
+        "gender": null,
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अखिल_1",
+    "headword_devanagari": "अखिल",
+    "headword_romanized": "akhila",
+    "full_entry": "अखिल akhila adj. inv. all-, entire.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अखिल akhila headword inv. all-, entire adjective",
+    "definitions": [
+      {
+        "definition": "inv. all-, entire",
+        "pos_display": "adj.",
+        "number": null,
+        "pos": "adjective",
+        "gender": null,
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अखेर_1",
+    "headword_devanagari": "अखेर",
+    "headword_romanized": "akhēra",
+    "full_entry": "अखेर akhēra f.(i) end. adv. finally. ० चे final.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अखेर akhēra headword end noun.feminine.i feminine finally. ० चे final adverb",
+    "definitions": [
+      {
+        "definition": "end",
+        "pos_display": "f.(i)",
+        "number": null,
+        "pos": "noun.feminine.i",
+        "gender": "feminine",
+        "declension_class": "i",
+        "referenced_entry": null
+      },
+      {
+        "definition": "finally. ० चे final",
+        "pos_display": "adv.",
+        "number": null,
+        "pos": "adverb",
+        "gender": null,
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अख्खे_1",
+    "headword_devanagari": "अख्खे",
+    "headword_romanized": "akhkhē",
+    "full_entry": "अख्खे akhkhē adj. whole, entire.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अख्खे akhkhē headword whole, entire adjective",
+    "definitions": [
+      {
+        "definition": "whole, entire",
+        "pos_display": "adj.",
+        "number": null,
+        "pos": "adjective",
+        "gender": null,
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अंग_1",
+    "headword_devanagari": "अंग",
+    "headword_romanized": "aṅga",
+    "full_entry": "अंग aṅga n. 1. body. 2. part. 3. side. 4. capacity, skill. ० चे natural, inborn. ० चोरणे to contract one's body, shirk. ० धरणे to have rheumatic pains, gain weight. ० वळणी असणे to be used to. अंगात येणे to be possessed (by a god, evil spirit).",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अंग aṅga headword body noun.neuter neuter part noun.neuter neuter side noun.neuter neuter capacity, skill. ० चे natural, inborn. ० चोरणे to contract one's body, shirk. ० धरणे to have rheumatic pains, gain weight. ० वळणी असणे to be used to. अंगात येणे to be possessed (by a god, evil spirit) noun.neuter neuter",
+    "definitions": [
+      {
+        "definition": "body",
+        "pos_display": "n.",
+        "number": 1,
+        "pos": "noun.neuter",
+        "gender": "neuter",
+        "declension_class": null,
+        "referenced_entry": null
+      },
+      {
+        "definition": "part",
+        "pos_display": "n.",
+        "number": 2,
+        "pos": "noun.neuter",
+        "gender": "neuter",
+        "declension_class": null,
+        "referenced_entry": null
+      },
+      {
+        "definition": "side",
+        "pos_display": "n.",
+        "number": 3,
+        "pos": "noun.neuter",
+        "gender": "neuter",
+        "declension_class": null,
+        "referenced_entry": null
+      },
+      {
+        "definition": "capacity, skill. ० चे natural, inborn. ० चोरणे to contract one's body, shirk. ० धरणे to have rheumatic pains, gain weight. ० वळणी असणे to be used to. अंगात येणे to be possessed (by a god, evil spirit)",
+        "pos_display": "n.",
+        "number": 4,
+        "pos": "noun.neuter",
+        "gender": "neuter",
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अंग_1",
+    "headword_devanagari": "अंग",
+    "headword_romanized": "aṅga",
+    "full_entry": "अंग aṅga interj. say ! Exclamation calling a person's attention, used in speaking to a woman in an informal situation.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अंग aṅga headword say ! Exclamation calling a person's attention, used in speaking to a woman in an informal situation interjection",
+    "definitions": [
+      {
+        "definition": "say ! Exclamation calling a person's attention, used in speaking to a woman in an informal situation",
+        "pos_display": "interj.",
+        "number": null,
+        "pos": "interjection",
+        "gender": null,
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अंगकाठी_1",
+    "headword_devanagari": "अंगकाठी",
+    "headword_romanized": "aṅgakāṭhī",
+    "full_entry": "अंगकाठी aṅgakāṭhī f. build, figure.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अंगकाठी aṅgakāṭhī headword build, figure noun.feminine feminine",
+    "definitions": [
+      {
+        "definition": "build, figure",
+        "pos_display": "f.",
+        "number": null,
+        "pos": "noun.feminine",
+        "gender": "feminine",
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अंगठा_1",
+    "headword_devanagari": "अंगठा",
+    "headword_romanized": "aṅgaṭhā",
+    "full_entry": "अंगठा aṅgaṭhā m. 1. thumb, big toe. 2. toe ring (of a chappal).",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अंगठा aṅgaṭhā headword thumb, big toe noun.masculine masculine toe ring (of a chappal) noun.masculine masculine",
+    "definitions": [
+      {
+        "definition": "thumb, big toe",
+        "pos_display": "m.",
+        "number": 1,
+        "pos": "noun.masculine",
+        "gender": "masculine",
+        "declension_class": null,
+        "referenced_entry": null
+      },
+      {
+        "definition": "toe ring (of a chappal)",
+        "pos_display": "m.",
+        "number": 2,
+        "pos": "noun.masculine",
+        "gender": "masculine",
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अंगठी_1",
+    "headword_devanagari": "अंगठी",
+    "headword_romanized": "aṅgaṭhī",
+    "full_entry": "अंगठी aṅgaṭhī f. ring.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अंगठी aṅgaṭhī headword ring noun.feminine feminine",
+    "definitions": [
+      {
+        "definition": "ring",
+        "pos_display": "f.",
+        "number": null,
+        "pos": "noun.feminine",
+        "gender": "feminine",
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अगडबंब_1",
+    "headword_devanagari": "अगडबंब",
+    "headword_romanized": "agaḍabamba",
+    "full_entry": "अगडबंब agaḍabamba adj. inv. huge, monstrous.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अगडबंब agaḍabamba headword inv. huge, monstrous adjective",
+    "definitions": [
+      {
+        "definition": "inv. huge, monstrous",
+        "pos_display": "adj.",
+        "number": null,
+        "pos": "adjective",
+        "gender": null,
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अंगडे_1",
+    "headword_devanagari": "अंगडे",
+    "headword_romanized": "aṅgaḍē",
+    "full_entry": "अंगडे aṅgaḍē n. frock for a child.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अंगडे aṅgaḍē headword frock for a child noun.neuter neuter",
+    "definitions": [
+      {
+        "definition": "frock for a child",
+        "pos_display": "n.",
+        "number": null,
+        "pos": "noun.neuter",
+        "gender": "neuter",
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अंगण_1",
+    "headword_devanagari": "अंगण",
+    "headword_romanized": "aṅgaṇa",
+    "full_entry": "अंगण aṅgaṇa n. yard.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अंगण aṅgaṇa headword yard noun.neuter neuter",
+    "definitions": [
+      {
+        "definition": "yard",
+        "pos_display": "n.",
+        "number": null,
+        "pos": "noun.neuter",
+        "gender": "neuter",
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अगणित_1",
+    "headword_devanagari": "अगणित",
+    "headword_romanized": "agaṇita",
+    "full_entry": "अगणित agaṇita adj. inv. innumerable.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अगणित agaṇita headword inv. innumerable adjective",
+    "definitions": [
+      {
+        "definition": "inv. innumerable",
+        "pos_display": "adj.",
+        "number": null,
+        "pos": "adjective",
+        "gender": null,
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अगतिक_1",
+    "headword_devanagari": "अगतिक",
+    "headword_romanized": "agatika",
+    "full_entry": "अगतिक agatika adj. inv. helpless.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अगतिक agatika headword inv. helpless adjective",
+    "definitions": [
+      {
+        "definition": "inv. helpless",
+        "pos_display": "adj.",
+        "number": null,
+        "pos": "adjective",
+        "gender": null,
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अगंतुगं_1",
+    "headword_devanagari": "अगंतुगं",
+    "headword_romanized": "agantugam",
+    "full_entry": "अगंतुगं agantugam n. informal address to a woman.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अगंतुगं agantugam headword informal address to a woman noun.neuter neuter",
+    "definitions": [
+      {
+        "definition": "informal address to a woman",
+        "pos_display": "n.",
+        "number": null,
+        "pos": "noun.neuter",
+        "gender": "neuter",
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अगत्य_1",
+    "headword_devanagari": "अगत्य",
+    "headword_romanized": "agatya",
+    "full_entry": "अगत्य agatya n. welcome.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अगत्य agatya headword welcome noun.neuter neuter",
+    "definitions": [
+      {
+        "definition": "welcome",
+        "pos_display": "n.",
+        "number": null,
+        "pos": "noun.neuter",
+        "gender": "neuter",
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अगदी_1",
+    "headword_devanagari": "अगदी",
+    "headword_romanized": "agadī",
+    "full_entry": "अगदी agadī adv. quite, very, completely.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अगदी agadī headword quite, very, completely adverb",
+    "definitions": [
+      {
+        "definition": "quite, very, completely",
+        "pos_display": "adv.",
+        "number": null,
+        "pos": "adverb",
+        "gender": null,
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अंगभर_1",
+    "headword_devanagari": "अंगभर",
+    "headword_romanized": "aṅgabhara",
+    "full_entry": "अंगभर aṅgabhara adv. covering the whole body.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अंगभर aṅgabhara headword covering the whole body adverb",
+    "definitions": [
+      {
+        "definition": "covering the whole body",
+        "pos_display": "adv.",
+        "number": null,
+        "pos": "adverb",
+        "gender": null,
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अंगमेहनत_1",
+    "headword_devanagari": "अंगमेहनत",
+    "headword_romanized": "aṅgamēhanata",
+    "full_entry": "अंगमेहनत aṅgamēhanata f.(i) physical labor.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अंगमेहनत aṅgamēhanata headword physical labor noun.feminine.i feminine",
+    "definitions": [
+      {
+        "definition": "physical labor",
+        "pos_display": "f.(i)",
+        "number": null,
+        "pos": "noun.feminine.i",
+        "gender": "feminine",
+        "declension_class": "i",
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अगर_1",
+    "headword_devanagari": "अगर",
+    "headword_romanized": "agara",
+    "full_entry": "अगर agara conj. or.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अगर agara headword or conjunction",
+    "definitions": [
+      {
+        "definition": "or",
+        "pos_display": "conj.",
+        "number": null,
+        "pos": "conjunction",
+        "gender": null,
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अंगरखा_1",
+    "headword_devanagari": "अंगरखा",
+    "headword_romanized": "aṅgarakhā",
+    "full_entry": "अंगरखा aṅgarakhā m. shirt, coat.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अंगरखा aṅgarakhā headword shirt, coat noun.masculine masculine",
+    "definitions": [
+      {
+        "definition": "shirt, coat",
+        "pos_display": "m.",
+        "number": null,
+        "pos": "noun.masculine",
+        "gender": "masculine",
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अगरबत्ती_1",
+    "headword_devanagari": "अगरबत्ती",
+    "headword_romanized": "agarabattī",
+    "full_entry": "अगरबत्ती agarabattī f. incense stick.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अगरबत्ती agarabattī headword incense stick noun.feminine feminine",
+    "definitions": [
+      {
+        "definition": "incense stick",
+        "pos_display": "f.",
+        "number": null,
+        "pos": "noun.feminine",
+        "gender": "feminine",
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अंगाई_1",
+    "headword_devanagari": "अंगाई",
+    "headword_romanized": "aṅgāī",
+    "full_entry": "अंगाई aṅgāī f. lullaby.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अंगाई aṅgāī headword lullaby noun.feminine feminine",
+    "definitions": [
+      {
+        "definition": "lullaby",
+        "pos_display": "f.",
+        "number": null,
+        "pos": "noun.feminine",
+        "gender": "feminine",
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अगोदर_1",
+    "headword_devanagari": "अगोदर",
+    "headword_romanized": "agōdara",
+    "full_entry": "अगोदर agōdara adv. first, in the beginning, before. post. before.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अगोदर agōdara headword first, in the beginning, before adverb before postposition",
+    "definitions": [
+      {
+        "definition": "first, in the beginning, before",
+        "pos_display": "adv.",
+        "number": null,
+        "pos": "adverb",
+        "gender": null,
+        "declension_class": null,
+        "referenced_entry": null
+      },
+      {
+        "definition": "before",
+        "pos_display": "post.",
+        "number": null,
+        "pos": "postposition",
+        "gender": null,
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अग्नी_1",
+    "headword_devanagari": "अग्नी",
+    "headword_romanized": "agnī",
+    "full_entry": "अग्नी agnī m. fire.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अग्नी agnī headword fire noun.masculine masculine",
+    "definitions": [
+      {
+        "definition": "fire",
+        "pos_display": "m.",
+        "number": null,
+        "pos": "noun.masculine",
+        "gender": "masculine",
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अग्र_1",
+    "headword_devanagari": "अग्र",
+    "headword_romanized": "agra",
+    "full_entry": "अग्र agra n. top, point. pref. first, foremost.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अग्र agra headword top, point noun.neuter neuter first, foremost prefix",
+    "definitions": [
+      {
+        "definition": "top, point",
+        "pos_display": "n.",
+        "number": null,
+        "pos": "noun.neuter",
+        "gender": "neuter",
+        "declension_class": null,
+        "referenced_entry": null
+      },
+      {
+        "definition": "first, foremost",
+        "pos_display": "pref.",
+        "number": null,
+        "pos": "prefix",
+        "gender": null,
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अग्रक्रम_1",
+    "headword_devanagari": "अग्रक्रम",
+    "headword_romanized": "agrakrama",
+    "full_entry": "अग्रक्रम agrakrama m. priority. अग्रक्रमाने giving priority, primarily.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अग्रक्रम agrakrama headword priority. अग्रक्रमाने giving priority, primarily noun.masculine masculine",
+    "definitions": [
+      {
+        "definition": "priority. अग्रक्रमाने giving priority, primarily",
+        "pos_display": "m.",
+        "number": null,
+        "pos": "noun.masculine",
+        "gender": "masculine",
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अग्रलेख_1",
+    "headword_devanagari": "अग्रलेख",
+    "headword_romanized": "agralēkha",
+    "full_entry": "अग्रलेख agralēkha m. editorial.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अग्रलेख agralēkha headword editorial noun.masculine masculine",
+    "definitions": [
+      {
+        "definition": "editorial",
+        "pos_display": "m.",
+        "number": null,
+        "pos": "noun.masculine",
+        "gender": "masculine",
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अग्रेसर_1",
+    "headword_devanagari": "अग्रेसर",
+    "headword_romanized": "agrēsara",
+    "full_entry": "अग्रेसर agrēsara adj. inv. leading.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अग्रेसर agrēsara headword inv. leading adjective",
+    "definitions": [
+      {
+        "definition": "inv. leading",
+        "pos_display": "adj.",
+        "number": null,
+        "pos": "adjective",
+        "gender": null,
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अघळपघळ_1",
+    "headword_devanagari": "अघळपघळ",
+    "headword_romanized": "aghaḷapaghaḷa",
+    "full_entry": "अघळपघळ aghaḷapaghaḷa adj. inv. 1. loose, free, 2. unreserved.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अघळपघळ aghaḷapaghaḷa headword loose, free, adjective unreserved adjective",
+    "definitions": [
+      {
+        "definition": "loose, free,",
+        "pos_display": "adj.",
+        "number": 1,
+        "pos": "adjective",
+        "gender": null,
+        "declension_class": null,
+        "referenced_entry": null
+      },
+      {
+        "definition": "unreserved",
+        "pos_display": "adj.",
+        "number": 2,
+        "pos": "adjective",
+        "gender": null,
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अचपळ_1",
+    "headword_devanagari": "अचपळ",
+    "headword_romanized": "acapaḷa",
+    "full_entry": "अचपळ acapaḷa adj. inv. lively.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अचपळ acapaḷa headword inv. lively adjective",
+    "definitions": [
+      {
+        "definition": "inv. lively",
+        "pos_display": "adj.",
+        "number": null,
+        "pos": "adjective",
+        "gender": null,
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अचाट_1",
+    "headword_devanagari": "अचाट",
+    "headword_romanized": "acāṭa",
+    "full_entry": "अचाट acāṭa adj. inv. extraordinary.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अचाट acāṭa headword inv. extraordinary adjective",
+    "definitions": [
+      {
+        "definition": "inv. extraordinary",
+        "pos_display": "adj.",
+        "number": null,
+        "pos": "adjective",
+        "gender": null,
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अचानक_1",
+    "headword_devanagari": "अचानक",
+    "headword_romanized": "acānaka",
+    "full_entry": "अचानक acānaka adv. unexpectedly, suddenly.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अचानक acānaka headword unexpectedly, suddenly adverb",
+    "definitions": [
+      {
+        "definition": "unexpectedly, suddenly",
+        "pos_display": "adv.",
+        "number": null,
+        "pos": "adverb",
+        "gender": null,
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अचूक_1",
+    "headword_devanagari": "अचूक",
+    "headword_romanized": "acūka",
+    "full_entry": "अचूक acūka adj. inv. correct, accurate. adv. accurately.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अचूक acūka headword inv. correct, accurate adjective accurately adverb",
+    "definitions": [
+      {
+        "definition": "inv. correct, accurate",
+        "pos_display": "adj.",
+        "number": null,
+        "pos": "adjective",
+        "gender": null,
+        "declension_class": null,
+        "referenced_entry": null
+      },
+      {
+        "definition": "accurately",
+        "pos_display": "adv.",
+        "number": null,
+        "pos": "adverb",
+        "gender": null,
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अजगर_1",
+    "headword_devanagari": "अजगर",
+    "headword_romanized": "ajagara",
+    "full_entry": "अजगर ajagara m. boa constrictor, python.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अजगर ajagara headword boa constrictor, python noun.masculine masculine",
+    "definitions": [
+      {
+        "definition": "boa constrictor, python",
+        "pos_display": "m.",
+        "number": null,
+        "pos": "noun.masculine",
+        "gender": "masculine",
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अजब_1",
+    "headword_devanagari": "अजब",
+    "headword_romanized": "ajaba",
+    "full_entry": "अजब ajaba adj. inv. strange.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अजब ajaba headword inv. strange adjective",
+    "definitions": [
+      {
+        "definition": "inv. strange",
+        "pos_display": "adj.",
+        "number": null,
+        "pos": "adjective",
+        "gender": null,
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अजागळ_1",
+    "headword_devanagari": "अजागळ",
+    "headword_romanized": "ajāgaḷa",
+    "full_entry": "अजागळ ajāgaḷa adj. inv. clumsy, untidy.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अजागळ ajāgaḷa headword inv. clumsy, untidy adjective",
+    "definitions": [
+      {
+        "definition": "inv. clumsy, untidy",
+        "pos_display": "adj.",
+        "number": null,
+        "pos": "adjective",
+        "gender": null,
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अजाण_1",
+    "headword_devanagari": "अजाण",
+    "headword_romanized": "ajāṇa",
+    "full_entry": "अजाण ajāṇa adj. inv. ignorant, innocent, unknowing.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अजाण ajāṇa headword inv. ignorant, innocent, unknowing adjective",
+    "definitions": [
+      {
+        "definition": "inv. ignorant, innocent, unknowing",
+        "pos_display": "adj.",
+        "number": null,
+        "pos": "adjective",
+        "gender": null,
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अजिबात_1",
+    "headword_devanagari": "अजिबात",
+    "headword_romanized": "ajibāta",
+    "full_entry": "अजिबात ajibāta adv. completely, at all.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अजिबात ajibāta headword completely, at all adverb",
+    "definitions": [
+      {
+        "definition": "completely, at all",
+        "pos_display": "adv.",
+        "number": null,
+        "pos": "adverb",
+        "gender": null,
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अजीजी_1",
+    "headword_devanagari": "अजीजी",
+    "headword_romanized": "ajījī",
+    "full_entry": "अजीजी ajījī f. pleading.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अजीजी ajījī headword pleading noun.feminine feminine",
+    "definitions": [
+      {
+        "definition": "pleading",
+        "pos_display": "f.",
+        "number": null,
+        "pos": "noun.feminine",
+        "gender": "feminine",
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  },
+  {
+    "entry_id": "berntsen_अंजीर_1",
+    "headword_devanagari": "अंजीर",
+    "headword_romanized": "añjīra",
+    "full_entry": "अंजीर añjīra m. fig.",
+    "source_page": 1,
+    "entry_type": "headword",
+    "base_word": null,
+    "search_text": "अंजीर añjīra headword fig noun.masculine masculine",
+    "definitions": [
+      {
+        "definition": "fig",
+        "pos_display": "m.",
+        "number": null,
+        "pos": "noun.masculine",
+        "gender": "masculine",
+        "declension_class": null,
+        "referenced_entry": null
+      }
+    ]
+  }
+]
