@@ -1,27 +1,4 @@
-# Marathi Dictionary RAG Project - Phase 1 Requirements
-# Install with: pip install -r requirements.txt
-
-# Embeddings
-sentence-transformers>=2.2.0    # For loading MahaSBERT
-torch>=2.0.0                    # Deep learning backend
-
-# Vector Database
-chromadb>=0.4.0                 # Vector storage and search
-
-# Data handling
-pandas>=2.0.0                   # For working with data (optional but helpful)
-
-# Jupyter
-jupyter>=1.0.0                  # Notebook environment
-ipywidgets>=8.0.0               # Interactive widgets in notebooks
-
-# Progress bars (nice to have)
-tqdm>=4.65.0                    # Shows progress when processing
-
-# Later phases (install now to avoid issues later)
-# langchain>=0.1.0              # Uncomment in Phase 2
-# openai>=1.0.0                 # Uncomment in Phase 2
-# anthropic>=0.18.0             # Uncomment in Phase 2
-# fastapi>=0.109.0              # Uncomment in Phase 3
-# uvicorn>=0.27.0               # Uncomment in Phase 3
-# streamlit>=1.31.0             # Uncomment in Phase 4
+gradio
+sentence-transformers
+numpy
+torch

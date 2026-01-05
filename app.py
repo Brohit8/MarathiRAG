@@ -113,49 +113,59 @@ def search(query: str, num_results: int = 10) -> str:
 
 
 def search_with_filters(query: str, num_results: int, entry_type: str) -> str:
-    """Search with optional entry type filter"""
+    """Hybrid search with exact match priority and optional entry type filter"""
     if not query.strip():
         return "Please enter a word to search."
-    
-    # Encode query
+
+    query_normalized = query.strip().lower()
+
+    # Step 1: Find exact matches
+    exact_match_indices = []
+    for idx, entry in enumerate(dictionary):
+        # Check headword_devanagari
+        if entry['headword_devanagari'].lower() == query_normalized:
+            exact_match_indices.append(idx)
+        # Check headword_romanized
+        elif entry.get('headword_romanized') and entry['headword_romanized'].lower() == query_normalized:
+            exact_match_indices.append(idx)
+
+    # Step 2: Encode query and calculate semantic similarities
     query_embedding = model.encode(query)
-    
-    # Calculate similarities
     similarities = cosine_similarity(query_embedding, embeddings)
-    
-    # Get sorted indices
+
+    # Get sorted indices by similarity
     sorted_indices = np.argsort(similarities)[::-1]
-    
-    # Filter and collect results
+
+    # Step 3: Build results with exact matches first
     results = []
     count = 0
-    
-    for idx in sorted_indices:
-        if count >= num_results:
-            break
-            
+    seen_indices = set()
+
+    # Add exact matches first
+    for idx in exact_match_indices:
         entry = dictionary[idx]
-        
+
         # Apply filter
         if entry_type != "All" and entry['entry_type'] != entry_type.lower():
             continue
-        
+
         score = similarities[idx]
         count += 1
-        
-        # Build result card
+        seen_indices.add(idx)
+
+        # Build result card with exact match indicator
         headword = entry['headword_devanagari']
         romanized = entry.get('headword_romanized', '')
         full_entry = entry['full_entry']
         etype = entry['entry_type']
         page = entry['source_page']
-        
-        # Format header
+
+        # Format header with exact match indicator
         if romanized:
-            header = f"### {count}. {headword} ({romanized})"
+            header = f"### {count}. {headword} ({romanized}) ⭐ Exact match"
         else:
-            header = f"### {count}. {headword}"
-        
+            header = f"### {count}. {headword} ⭐ Exact match"
+
         # Format definitions
         definitions = entry.get('definitions', [])
         def_text = ""
@@ -168,7 +178,7 @@ def search_with_filters(query: str, num_results: int, entry_type: str) -> str:
                     def_text += f"  {num}. {defn} *{pos}*\n"
                 else:
                     def_text += f"  • {defn} *{pos}*\n"
-        
+
         # Build card
         card = f"""{header}
 
@@ -180,10 +190,67 @@ def search_with_filters(query: str, num_results: int, entry_type: str) -> str:
 ---
 """
         results.append(card)
-    
+
+    # Add semantic search results (excluding exact matches)
+    for idx in sorted_indices:
+        if count >= num_results:
+            break
+
+        # Skip if already added as exact match
+        if idx in seen_indices:
+            continue
+
+        entry = dictionary[idx]
+
+        # Apply filter
+        if entry_type != "All" and entry['entry_type'] != entry_type.lower():
+            continue
+
+        score = similarities[idx]
+        count += 1
+        seen_indices.add(idx)
+
+        # Build result card
+        headword = entry['headword_devanagari']
+        romanized = entry.get('headword_romanized', '')
+        full_entry = entry['full_entry']
+        etype = entry['entry_type']
+        page = entry['source_page']
+
+        # Format header
+        if romanized:
+            header = f"### {count}. {headword} ({romanized})"
+        else:
+            header = f"### {count}. {headword}"
+
+        # Format definitions
+        definitions = entry.get('definitions', [])
+        def_text = ""
+        if definitions:
+            for d in definitions:
+                pos = d.get('pos_display', '')
+                defn = d.get('definition', '')
+                num = d.get('number', '')
+                if num:
+                    def_text += f"  {num}. {defn} *{pos}*\n"
+                else:
+                    def_text += f"  • {defn} *{pos}*\n"
+
+        # Build card
+        card = f"""{header}
+
+{full_entry}
+
+{def_text}
+📖 *{etype}* · Page {page} · Match: {score:.1%}
+
+---
+"""
+        results.append(card)
+
     if not results:
         return "No results found. Try a different search term."
-    
+
     return "\n".join(results)
 
 # ============================================================
@@ -202,7 +269,7 @@ css = """
 """
 
 # Build the interface
-with gr.Blocks(css=css, title="Marathi Dictionary") as app:
+with gr.Blocks(title="Marathi Dictionary") as app:
     gr.Markdown("""
     # 🇮🇳 Marathi-English Dictionary
     
@@ -280,4 +347,4 @@ with gr.Blocks(css=css, title="Marathi Dictionary") as app:
 # ============================================================
 
 if __name__ == "__main__":
-    app.launch()
+    app.launch(css=css)
