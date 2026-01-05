@@ -17,6 +17,7 @@ from pathlib import Path
 DICTIONARY_PATH = "berntsen_dictionary_processed.json"
 EMBEDDINGS_PATH = "embeddings.npy"
 MODEL_NAME = "l3cube-pune/marathi-sentence-similarity-sbert"
+SIMILARITY_THRESHOLD = 0.6  # Minimum similarity score (60%) to show results
 
 # ============================================================
 # LOAD DATA AND MODEL
@@ -113,7 +114,7 @@ def search(query: str, num_results: int = 10) -> str:
 
 
 def search_with_filters(query: str, num_results: int, entry_type: str) -> str:
-    """Hybrid search with exact match priority and optional entry type filter"""
+    """Hybrid search with exact match priority, similarity threshold, and optional entry type filter"""
     if not query.strip():
         return "Please enter a word to search."
 
@@ -141,7 +142,7 @@ def search_with_filters(query: str, num_results: int, entry_type: str) -> str:
     count = 0
     seen_indices = set()
 
-    # Add exact matches first
+    # Add exact matches first (always show, regardless of threshold)
     for idx in exact_match_indices:
         entry = dictionary[idx]
 
@@ -191,7 +192,7 @@ def search_with_filters(query: str, num_results: int, entry_type: str) -> str:
 """
         results.append(card)
 
-    # Add semantic search results (excluding exact matches)
+    # Add semantic search results (excluding exact matches, applying threshold)
     for idx in sorted_indices:
         if count >= num_results:
             break
@@ -200,13 +201,17 @@ def search_with_filters(query: str, num_results: int, entry_type: str) -> str:
         if idx in seen_indices:
             continue
 
+        # Apply similarity threshold (only for semantic matches, not exact)
+        score = similarities[idx]
+        if score < SIMILARITY_THRESHOLD:
+            continue
+
         entry = dictionary[idx]
 
         # Apply filter
         if entry_type != "All" and entry['entry_type'] != entry_type.lower():
             continue
 
-        score = similarities[idx]
         count += 1
         seen_indices.add(idx)
 
@@ -248,8 +253,15 @@ def search_with_filters(query: str, num_results: int, entry_type: str) -> str:
 """
         results.append(card)
 
+    # Return appropriate message based on results
     if not results:
-        return "No results found. Try a different search term."
+        return f"No good matches found for '{query}'. Try a different spelling or related word."
+
+    # Add header showing how many results passed the threshold
+    threshold_pct = int(SIMILARITY_THRESHOLD * 100)
+    if count > 0:
+        header_msg = f"**Showing {count} result{'s' if count != 1 else ''} above {threshold_pct}% match**\n\n---\n\n"
+        return header_msg + "\n".join(results)
 
     return "\n".join(results)
 
