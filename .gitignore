@@ -3,3 +3,16 @@ chroma_db/
 __pycache__/
 *.pyc
 venv/
+.venv/
+.env
+docs/archive/
+
+# Large files - don't push to GitHub
+*.npy
+combined_dictionary.json
+combined_embeddings.npy
+molesworth_dictionary.json
+berntsen_dictionary_v2.json
+berntsen_dictionary_processed.json
+.gitattributes
+.ipynb_checkpoints/

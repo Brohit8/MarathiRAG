@@ -14,8 +14,8 @@ from sentence_transformers import SentenceTransformer
 from tqdm import tqdm
 
 # Configuration
-DICTIONARY_PATH = "berntsen_dictionary_processed.json"
-OUTPUT_PATH = "embeddings.npy"
+DICTIONARY_PATH = "combined_dictionary.json"
+OUTPUT_PATH = "combined_embeddings.npy"
 MODEL_NAME = "l3cube-pune/marathi-sentence-similarity-sbert"
 BATCH_SIZE = 64
 
@@ -60,8 +60,8 @@ def main():
     print("   Files to upload:")
     print("   - app.py")
     print("   - requirements.txt")
-    print("   - berntsen_dictionary_processed.json")
-    print("   - embeddings.npy")
+    print("   - combined_dictionary.json")
+    print("   - combined_embeddings.npy")
 
 if __name__ == "__main__":
     main()

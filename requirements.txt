@@ -2,3 +2,4 @@ gradio
 sentence-transformers
 numpy
 torch
+anthropic
